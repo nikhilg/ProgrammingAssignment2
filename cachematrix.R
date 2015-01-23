@@ -22,8 +22,8 @@ makeCacheMatrix <- function(x = matrix()) {
 	setInverse <- function(inverse) m <<- inverse
 	getInverse <- function() m
 	list(set = set, get = get,
-		 setInverse = setInverse,
-		 getInverse = getInverse)
+		setInverse = setInverse,
+		getInverse = getInverse)
 }
 
 ## This function calculates the inverse matrix of the special "vector"
